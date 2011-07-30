@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redisU", "redisU\redisU.csproj", "{118EAA37-9D14-47A5-9ED1-32F509153380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redisU.tests", "redisU.tests\redisU.tests.csproj", "{6AB99495-6BFE-4AE4-9848-6C6162788A42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118EAA37-9D14-47A5-9ED1-32F509153380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118EAA37-9D14-47A5-9ED1-32F509153380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118EAA37-9D14-47A5-9ED1-32F509153380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118EAA37-9D14-47A5-9ED1-32F509153380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB99495-6BFE-4AE4-9848-6C6162788A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB99495-6BFE-4AE4-9848-6C6162788A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB99495-6BFE-4AE4-9848-6C6162788A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB99495-6BFE-4AE4-9848-6C6162788A42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = redisU\redisU.csproj
+	EndGlobalSection
+EndGlobal

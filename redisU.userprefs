@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="redisU/framework/RedisConnectionBase.cs">
+    <Files>
+      <File FileName="redisU.tests/Main.cs" Line="14" Column="42" />
+      <File FileName="redisU/framework/RedisSynchronousStream.cs" Line="1" Column="1" />
+      <File FileName="redisU/framework/RedisConnection.cs" Line="1" Column="1" />
+      <File FileName="redisU/framework/RedisSubscription.cs" Line="1" Column="1" />
+      <File FileName="redisU/framework/RedisConnectionBase.cs" Line="13" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/anshul_goyal/MyProjects/redisU/redisU/framework/RedisSynchronousStream.cs" line="161" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

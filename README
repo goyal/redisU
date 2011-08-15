@@ -1,4 +1,4 @@
 What is redisU?
 redisU is a free open source client for Redis 2.2.10 that can be used with Unity3d. redisU is designed keeping in mind that unity uses .NET 2.0 or a subset of .NET 2.0 to compile the source code. Hence, redisU only uses those classes and data types that are available in .NET 2.0 or lower.
 
-redisU is currently under development and will be constantly updated. However, the compile binary available to downlaod is a stable release.
+redisU is currently under development and will be constantly updated. However, the compiled binary available to downlaod is a stable release.

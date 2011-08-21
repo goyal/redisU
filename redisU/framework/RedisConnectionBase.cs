@@ -41,6 +41,7 @@ namespace redisU.framework
 		private Socket clientSocket = null;
 		protected RedisStream redisStream = null;
 		protected Queue sendCommanSyncQueue = null;
+		protected bool isInTransaction = false;
 		
 		public RedisConnectionBase()
 		{
@@ -107,12 +108,14 @@ namespace redisU.framework
 		
 		protected bool ConvertReplyToBool(string[] reply)
 		{
+			if(isInTransaction) return false;
 			string retVal = ((reply != null && reply.Length > 0) ? reply[0] : null);
 			return ((retVal == null || retVal.Equals(Constants.NO_OP)) ? false : true);
 		}
 		
 		protected int ConvertReplyToInt(string[] reply)
 		{
+			if(isInTransaction) return -1;
 			string retVal = ((reply != null && reply.Length > 0) ? reply[0] : null);
 			return ((retVal == null) ? -1 : Convert.ToInt32(retVal));	
 		}

@@ -1,17 +1,25 @@
-﻿<Properties>
+﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="redisU/framework/RedisConnectionBase.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="redisU.tests/Counter.cs">
     <Files>
-      <File FileName="redisU.tests/Main.cs" Line="14" Column="42" />
-      <File FileName="redisU/framework/RedisSynchronousStream.cs" Line="1" Column="1" />
-      <File FileName="redisU/framework/RedisConnection.cs" Line="1" Column="1" />
-      <File FileName="redisU/framework/RedisSubscription.cs" Line="1" Column="1" />
-      <File FileName="redisU/framework/RedisConnectionBase.cs" Line="13" Column="44" />
+      <File FileName="redisU/utils/Constants.cs" Line="29" Column="1" />
+      <File FileName="redisU.tests/Main.cs" Line="20" Column="44" />
+      <File FileName="redisU/framework/RedisSynchronousStream.cs" Line="73" Column="43" />
+      <File FileName="redisU/framework/RedisSubscription.cs" Line="81" Column="16" />
+      <File FileName="redisU/framework/RedisStream.cs" Line="1" Column="1" />
+      <File FileName="redisU/framework/RedisConnectionBase.cs" Line="1" Column="1" />
+      <File FileName="redisU/framework/RedisCommand.cs" Line="1" Column="1" />
+      <File FileName="redisU/exceptions/RedisException.cs" Line="1" Column="1" />
+      <File FileName="redisU/events/SubscriptionEventArgs.cs" Line="1" Column="1" />
+      <File FileName="redisU/events/MessageEventArgs.cs" Line="31" Column="1" />
+      <File FileName="redisU.tests/Counter.cs" Line="23" Column="4" />
+      <File FileName="redisU/framework/RedisConnection.cs" Line="347" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/anshul_goyal/MyProjects/redisU/redisU/framework/RedisSynchronousStream.cs" line="161" />
+      <Breakpoint file="/Users/anshul_goyal/MyProjects/redisU/redisU/framework/RedisSynchronousStream.cs" line="190" />
+      <Breakpoint file="/Users/anshul_goyal/MyProjects/redisU/redisU.tests/Counter.cs" line="29" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

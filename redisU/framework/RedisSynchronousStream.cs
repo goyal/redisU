@@ -106,6 +106,8 @@ namespace redisU.framework
 		public string[] HandleMultiBulkReply()
 		{
 			int numberOfBulkReplies = Convert.ToInt32(Readline());
+			if(numberOfBulkReplies < 0)
+				return null;
 			string[] bulkReply = new string[numberOfBulkReplies];
 			for(int index = 0; index < numberOfBulkReplies; index++)
 			{	

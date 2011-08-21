@@ -4,7 +4,7 @@ using redisU.utils;
 using redisU.framework;
 using redisU.events;
 
-namespace redisU
+namespace redisU.tests
 {
 	class MainClass
 	{
@@ -16,8 +16,11 @@ namespace redisU
 			redis = new RedisConnection("localhost", 6379);
 			
 			redis.ClearAllDB();
+			redis.Set<string, int>("sync-counter", 0);
+		 	Counter syncCounter = new Counter();
+			syncCounter.Count();
 			
-			redis._Set<string, string>("testkey1", "testval1");
+			/*redis._Set<string, string>("testkey1", "testval1");
 			
 			redis._Set<string, string>("testkey2", "testval2");
 			
@@ -94,7 +97,7 @@ namespace redisU
 			consumer.OnMessageReceived += HandleConsumerOnMessageReceived;
 			consumer.OnSubscribe += HandleConsumerOnSubscribe;
 			consumer.OnUnsubscribe += HandleConsumerOnUnsubscribe;
-			consumer.Subscribe(new string[] {"gameplay"});
+			consumer.Subscribe(new string[] {"gameplay"});*/
 			
 			//consumer.Unsubscribe(new string[] {"gameplay"});
 			//connection.DestroySubscription();

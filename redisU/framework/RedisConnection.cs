@@ -1107,11 +1107,13 @@ namespace redisU.framework
 		
 		public void BeginTransaction()
 		{
+			isInTransaction = true;
 			EnqueueAndSendCommand(RedisCommand.MULTI);	
 		}
 		
 		public string[] CommitTransaction()
 		{
+			isInTransaction = false;
 			return ExecuteCommand(RedisCommand.EXEC);
 		}
 		
